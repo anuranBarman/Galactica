@@ -103,6 +103,7 @@ def show_game_over_screen():
     waiting = True
     while waiting:
         clock.tick(FPS)
+        pygame.init()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()

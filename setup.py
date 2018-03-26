@@ -15,7 +15,7 @@ setup(
 #     version = "1.0",
 #     description = "Simple Space Shooter Game Developed By Anuran Barman",
 #     options = {'build_exe': {'include_files':includefiles}},
-#     executables = [Executable("Galactica.py"),base="Win32GUI"])
+#     executables = [Executable("Galactica.py",base="Win32GUI")])
 
 
 
